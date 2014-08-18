@@ -1,4 +1,35 @@
 *.class
+.git
+.settings
+.project
+
+#bloomfilter
+bloomfilter/*.class
+bloomfilter/.settings
+bloomfilter/target
+bloomfilter/.classpath
+bloomfilter/.project
+
+#bloomfilter-client
+bloomfilter-client/*.class
+bloomfilter-client/.settings
+bloomfilter-client/target
+bloomfilter-client/.classpath
+bloomfilter-client/.project
+
+#bloomfilter-common
+bloomfilter-common/*.class
+bloomfilter-common/.settings
+bloomfilter-common/target
+bloomfilter-common/.classpath
+bloomfilter-common/.project
+
+#bloomfilter-server
+bloomfilter-server/*.class
+bloomfilter-server/.settings
+bloomfilter-server/target
+bloomfilter-server/.classpath
+bloomfilter-server/.project
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
