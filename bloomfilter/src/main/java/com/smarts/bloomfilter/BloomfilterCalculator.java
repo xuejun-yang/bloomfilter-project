@@ -1,6 +1,6 @@
 package com.smarts.bloomfilter;
 
-import com.smarts.bloomfilter.config.ConfigReader;
+import com.smarts.bloomfilter.common.config.ConfigReader;
 
 /**
  * bloomfilter 计算器，根据元素个数和误判率来计算所需空间大小和hash个数

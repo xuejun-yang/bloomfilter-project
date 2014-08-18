@@ -2,11 +2,11 @@ package com.smarts.bloomfilter;
 
 import java.util.BitSet;
 
-import com.smarts.bloomfilter.config.ConfigReader;
+import com.smarts.bloomfilter.common.config.ConfigReader;
 import com.smarts.bloomfilter.hash.MurmurHash;
 
 /**
- * 去重
+ * 去重,非线程安全
  * 
  * @author 杨雪军(Yang xue jun)<br>
  *         2014年8月15日 下午12:54:39<br>

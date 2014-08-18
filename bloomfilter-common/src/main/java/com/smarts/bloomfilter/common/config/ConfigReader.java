@@ -1,4 +1,4 @@
-package com.smarts.bloomfilter.config;
+package com.smarts.bloomfilter.common.config;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -15,7 +15,7 @@ public final class ConfigReader {
 	static{
 		p=new Properties();
 		try {
-			p.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("Config.properties"));
+			p.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("config.properties"));
 		} catch (IOException e) {
 			throw new RuntimeException(e.getMessage());
 		}
